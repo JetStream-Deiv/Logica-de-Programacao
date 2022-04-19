@@ -33,4 +33,5 @@ int main()
             printf("Total: R$%.2lf", resultado);
         }
     }
+    return 0;
 }
