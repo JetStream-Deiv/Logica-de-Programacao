@@ -28,4 +28,5 @@ int main()
     {
         printf("\nnao e um triangulo\n");
     }
+    return 0;
 }
