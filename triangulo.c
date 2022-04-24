@@ -11,13 +11,16 @@ int main()
     if (a + b > c && b + c > a && a + c > b) // para saber se é um triângulo
     {
 
-        if (a == b && b == c)
+        float trianguloEquilatero = a == b && b == c;
+        float trianguloIsosceles = a == b || c == a || b == c;
+
+        if (trianguloEquilatero)
         {
             printf("\n Os tres lados sao iguais, portanto, e um triangulo equilatero\n");
         }
-        else if (a == b || c == a || b == c)
+        else if (trianguloIsosceles)
         {
-            printf("\n o triangulo e isosceles\n");
+            printf("\n o triangulo e isosceles, por ter dois lados iguais\n");
         }
         else
         {
@@ -28,5 +31,4 @@ int main()
     {
         printf("\nnao e um triangulo\n");
     }
-    return 0;
 }
