@@ -1,7 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class u1094 {
+public class URI1094 {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         int vezes, nuanimal, contadorCoelho = 0, contadorRato = 0, contadorSapo = 0;
